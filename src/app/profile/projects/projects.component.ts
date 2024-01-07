@@ -13,16 +13,8 @@ export class ProjectsComponent implements OnInit {
   constructor(private profileService:ProfileService) { }
 
   ngOnInit() {
-    // this.projects = this.profileService.getProjects()
-    // console.log(this.projects)
-    // this.config = {
-    //   itemsPerPage: 6,
-    //   currentPage: 1,
-    //   totalItems: this.projects.length
-    // };
+   
   }
 
-  // pageChanged(event: any){
-  //   this.config.currentPage = event;
-  // }
+  
 }
